@@ -1,0 +1,93 @@
+
+.thumbnail-row{
+  margin-bottom: 8px;
+  position: relative;
+  
+}
+
+.vidio-time{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  padding: 4px 4px;
+  font-family:Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.thumbnail{
+  width: 100%;
+  cursor: pointer;
+
+ 
+} 
+
+.vidio-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.prifile-picture{
+  width: 36px;
+  border-radius: 30px;   
+  cursor: pointer;
+
+}
+
+.vidio-title{
+  font-size: 14px;
+  margin-top: 0;
+  font-weight: 500px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  
+}
+
+.vidio-author,.vidio-stats{
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+  font-weight: 400;
+
+}
+
+.vidio-author{
+  cursor: pointer;
+}
+.vidio-author{
+  margin-bottom: 4px;
+}
+
+.vidio-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+
+}
+
+@media (max-width: 750px)
+{
+  .vidio-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px)
+{
+  .vidio-grid{
+    grid-template-columns: 1fr 1f 1frr;
+  }
+}
+
+@media (min-width: 1000px)
+{
+  .vidio-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
